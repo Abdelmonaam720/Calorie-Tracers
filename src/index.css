@@ -1,0 +1,34 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --theme-green-bg: #43a047;
+  --theme-green-bg-light: #66bb6a;
+  --theme-green-bg-hover: #388e3c;
+  --theme-light-bg: #f5f7fa;
+  --theme-dark-color: #555;
+  --theme-red-color: #e53935;
+  --theme-red-hover: #c62828;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  padding-block: 50px;
+}
+
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 

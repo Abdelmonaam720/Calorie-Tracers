@@ -1,0 +1,83 @@
+
+.calories-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+
+.calories-form label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.calories-form input,
+.calories-form select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: border 0.3s;
+  box-sizing: border-box;
+}
+
+.calories-form input:focus,
+.calories-form select:focus {
+  border-color: var(--theme-green-bg);
+  outline: none;
+}
+
+.calories-form button {
+  grid-column: span 1;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 8px;
+}
+
+.calories-form button:hover {
+    color: #fff;
+}
+.calories-form button[id='AddBtn']:hover {
+    background-color: var(--theme-green-bg);
+}
+
+.calories-form button[id='CancelBtn']:hover {
+  background-color: var(--theme-red-color);
+}
+
+.AddRecord {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background: var(--theme-green-bg-light);
+    font-size: 1.2rem;
+    color: white;
+    margin-block: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.model .overlay {
+  background-color: 'rgba(0, 0, 0, 0.5)'
+}
+.model form {
+  max-width: 500px;
+  margin: auto;
+  height: fit-content;
+}
+
